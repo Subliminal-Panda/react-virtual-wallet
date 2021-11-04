@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
+import Wallet from './wallet';
 
-export default class Wallet extends Component {
+export default class App extends Component {
+
+  constructor(props) {
+    super(props);
+      this.state = {
+
+      }
+  }
+
   render() {
     return (
       <div className='app'>
-        <h1>Virtual Wallet App</h1>
+        <Wallet />
       </div>
     );
   }

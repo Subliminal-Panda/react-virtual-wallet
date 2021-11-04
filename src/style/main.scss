@@ -1,5 +1,8 @@
 html {
     font-size: 62.5%; // 1rem is 10px
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
 }
 
 *,
@@ -25,4 +28,13 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+}
+
+.wallet {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
